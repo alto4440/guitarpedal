@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Big Muff</title>
+    <script src="https://use.fontawesome.com/51c60bd89f.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Catamaran&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/simplelightbox.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Big Muff</h1>
+            <ul class="nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#artists">Artists</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section class="section-a">
+        <div class="container">
+            <div>
+                <h1>The pedal of the future - and the past</h1>
+                <p>
+                    The Electro-Harmonix Big Muff Pi is the pedal that started it all. The Big Muff Pi is the distortion
+                    pedal countless musicians, including Hendrix and Santana, relied on for its rich, creamy,
+                    violin-like sustain.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div>
+                <img src="img/feature.jpg" alt="The Big Muff Pedal">
+            </div>
+        </div>
+    </section>
+
+    <!-- Overlay Text-->
+    <section class="section-b">
+        <div class="overlay">
+            <div class="section-b-inner">
+                <h3>Loud & Clear</h3>
+                <h2>A Stompbox Classic</h2>
+                <p>
+                    Like the legendary Big Muff Pi of the '70s, the Electro-Harmonix Big Muff Pi reissue has three
+                    controls that let the player dial in the finest harmonic distortion/sustain ever produced. The Big
+                    Muff Pi's Volume control adjusts the output level. The Sustain control optimizes the long sustain
+                    with just the right amount of harmonic distortion, and the Big Muff Pi's Tone control provides a
+                    range of sounds, from warm bass to crisp treble. From Pink Floyd to the Chemical Brothers to Korn,
+                    everyone wants a piece of the Pi!
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Gallery -->
+    <section class="section-c">
+        <div class="gallery">
+            <a href="img/guitar.jpeg" class="big"><img src="img/guitar.jpeg"></a>
+            <a href="img/board.jpg" class="big"><img src="img/board.jpg"></a>
+            <a href="img/rig.jpg" class="big"><img src="img/rig.jpg"></a>
+            <a href="img/collage.jpg" class="big"><img src="img/collage.jpg"></a>
+            <a href="img/board2.jpg" class="big"><img src="img/board2.jpg"></a>
+            <a href="img/feature.jpg" class="big"><img src="img/feature.jpg"></a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section-footer">
+        <div class="container">
+            <div>
+                <h2>Lorem ipsum dolor sit amet.</h2>
+                <a href="http://twitter.com">
+                    <i class="fa fa-twitter fa-2x"></i>
+                </a>
+                <a href="http://facebook.com">
+                    <i class="fa fa-facebook fa-2x"></i>
+                </a>
+                <a href="http://youtube.com">
+                    <i class="fa fa-youtube fa-2x"></i>
+                </a>
+            </div>
+            <div>
+                <h3>Company Info</h3>
+                <ul>
+                    <li><a href="#">All Products</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Blog Posts</h3>
+                <ul>
+                    <li><a href="#">Maximize your tone.</a></li>
+                    <li><a href="#">Cleaner sweep arpeggios.</a></li>
+                    <li><a href="#">Must-try chord voicings</a></li>
+                    <li><a href="#">Sounds of the Past Series: Jimmy Page Fature</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Subscribe</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <form name="email-form" method="POST" data-netlify="true">
+                    <div class="email-form">
+                        <span class="form-control-wrap">
+                            <input type="email" name="email" id="email" size="40" placeholder="Email"
+                                class="form-control">
+                        </span>
+                        <button type="submit" class="form=control submit">
+                            <i class="fa fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+    <script src="js/simple-lightbox.js"></script>
+    <script>
+        $(function () {
+            const $gallery = $('.gallery a').simpleLightbox();
+        })
+    </script>
+</body>
+
+</html>
